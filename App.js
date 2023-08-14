@@ -63,7 +63,7 @@ const resList = [
     },
   },
   {
-    id: "25620",
+    id: "25621",
     name: "Dominos Pizza",
     cloudinaryImageId: "vw6n5betlssnqelt7rmu",
     locality: "Intermediate Ring Road",
@@ -81,7 +81,7 @@ const resList = [
     },
   },
   {
-    id: "25620",
+    id: "25622",
     name: "Cristi Burger",
     cloudinaryImageId: "r4ufflqojich0r29efvc",
     locality: "Intermediate Ring Road",
@@ -106,7 +106,7 @@ const Body = () => {
       <div className="search">Search</div>
       <div className="res-container">
         {resList.map((restaurant) => (
-          <RestaurantCard resData={restaurant} />
+          <RestaurantCard key={restaurant.id} resData={restaurant} />
         ))}
       </div>
     </div>
