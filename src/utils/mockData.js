@@ -43,7 +43,7 @@ const resList = [
     areaName: "Ejipura",
     costForTwo: "₹300 for two",
     cuisines: ["Burgers", "American", "Fast Food"],
-    avgRating: 4.1,
+    avgRating: 2.7,
     sla: {
       deliveryTime: 14,
       lastMileTravel: 0.4,
