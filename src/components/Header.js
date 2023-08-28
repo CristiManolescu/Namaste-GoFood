@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const [btnLog, setBtnLog] = useState("Login");
-  console.log("Header rendered");
 
   return (
     <div className="header">
