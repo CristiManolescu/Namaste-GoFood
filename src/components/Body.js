@@ -4,28 +4,13 @@ import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import { RESTAURANT_API } from "../utils/constants";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import useListOfRest from "../utils/useListOfRest";
 
 const Body = () => {
-  const [listOfRestaurants, setlistOfRestaurants] = useState([]);
-  const [filteredRestaurant, setFilteredRestaurant] = useState([]);
+  const listOfRestaurants = useListOfRest();
+  const filteredRestaurant = useListOfRest();
 
   const [searchText, setSearchText] = useState("");
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
-  const fetchData = async () => {
-    const data = await fetch(RESTAURANT_API);
-    const json = await data.json();
-
-    setlistOfRestaurants(
-      json?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants
-    );
-    setFilteredRestaurant(
-      json?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants
-    );
-  };
 
   const onlineStatus = useOnlineStatus();
 
