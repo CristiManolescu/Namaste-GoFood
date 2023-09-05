@@ -1,15 +1,18 @@
-import { useState } from "react";
+import useUserData from "../utils/useUserData";
 
-const User = ({ name }) => {
-  const [count] = useState(0);
-  const [count2] = useState(1);
+const User = () => {
+  const user = useUserData();
+  console.log(user);
+  const { name, location, login } = user;
   return (
     <div className="user-card">
-      <h1>Count: {count}</h1>
-      <h1>Count2: {count2}</h1>
+      <img
+        alt="Profile photo"
+        src="https://avatars.githubusercontent.com/u/40199080?v=4"
+      />
       <h2>Name: {name}</h2>
-      <h3>Location: Bucharest</h3>
-      <h4>Contact: @cristimanolescu</h4>
+      <h3>Location: {location}</h3>
+      <h4>Contact: @{login}</h4>
     </div>
   );
 };
