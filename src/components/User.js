@@ -2,7 +2,6 @@ import useUserData from "../utils/useUserData";
 
 const User = () => {
   const user = useUserData();
-  console.log(user);
   const { name, location, login } = user;
   return (
     <div className="user-card">
