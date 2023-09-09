@@ -7,7 +7,6 @@ const RestaurantCategory = ({ data }) => {
     //showItems ? setShowItems(false) : setShowItems(true);
     setShowItems(!showItems);
   };
-  //   console.log(data.itemCards);
   return (
     <div>
       {/* Header */}
