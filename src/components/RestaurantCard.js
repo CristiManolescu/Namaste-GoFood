@@ -26,7 +26,7 @@ export const withOpenLabel = (RestaurantCard) => {
   return (props) => {
     return (
       <div>
-        <label className="absolute bg-black text-white m-2 p-2 rounded-lg">
+        <label className="absolute bg-black text-white m-2 p-2 rounded-lg opacity-80">
           Open
         </label>
         <RestaurantCard {...props} />
