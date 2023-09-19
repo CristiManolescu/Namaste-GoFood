@@ -1,0 +1,2830 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "660675",
+              "name": "Cafe Amudham",
+              "city": "Bangalore",
+              "slugs": {
+                "restaurant": "cafe-amudham-koramangala-koramangala",
+                "city": "bangalore"
+              },
+              "uniqueId": "be60743a-5696-4603-b22b-291953bff4ff",
+              "cloudinaryImageId": "c4314ce3710e1cc462cef8d978a58ffc",
+              "locality": "5th Block Kormangala",
+              "areaName": "Koramangala",
+              "costForTwo": "20000",
+              "costForTwoMessage": "₹200 for two",
+              "cuisines": ["South Indian"],
+              "avgRating": 4.6,
+              "feeDetails": {
+                "restaurantId": "660675",
+                "fees": [
+                  {
+                    "name": "distance",
+                    "fee": 2900
+                  },
+                  {
+                    "name": "time"
+                  },
+                  {
+                    "name": "special"
+                  }
+                ],
+                "totalFee": 2900,
+                "icon": "v1648635511/Delivery_fee_new_cjxumu",
+                "message": "0.6 kms | ₹29 Delivery fee will apply"
+              },
+              "parentId": "396620",
+              "avgRatingString": "4.6",
+              "totalRatingsString": "1K+ ratings",
+              "sla": {
+                "restaurantId": "660675",
+                "deliveryTime": 25,
+                "minDeliveryTime": 25,
+                "maxDeliveryTime": 25,
+                "lastMileTravel": 0.7,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 0.85247725,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 1,
+                "slaString": "25 MINS",
+                "lastMileTravelString": "0.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2023-09-19 23:59:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "header": "20% off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "20% off | Use TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "FLAT75 off | Use BFBINGE",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "20% off up to ₹50 | Use code TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "FLAT75 off | Use BFBINGE",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "cafe-amudham-koramangala-koramangala",
+              "multiOutlet": true,
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "No. 146, 5th Block, Koramangala, Bangalore, BTM Layout , B.B.M.P South, Karnataka-560095"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "South Indian"
+                }
+              ],
+              "totalRatings": 1000,
+              "aggregatedDiscountInfoV2": {
+                "header": "20% off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "20% off | Use TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "FLAT75 off | Use BFBINGE",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "20% off up to ₹50 | Use code TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "FLAT75 off | Use BFBINGE",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "nudgeBanners": [
+                {
+                  "minValue": 420,
+                  "maxValue": 600,
+                  "priority": 3,
+                  "couponCode": "PARTY",
+                  "discountInfo": {
+                    "discountType": "Percentage",
+                    "value": 10
+                  },
+                  "lockedMessage": "Add items worth ₹<amount> to unlock flat 10% off | Code PARTY",
+                  "unlockedMessage": "PARTY Coupon Unlocked! Use it to save flat 10% off",
+                  "logoCtx": {}
+                }
+              ],
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/660675"
+              },
+              "expectationNotifiers": [
+                {
+                  "text": "0.6 kms | ₹29 Delivery fee will apply",
+                  "icon": {
+                    "imageId": "v1648635511/Delivery_fee_new_cjxumu"
+                  },
+                  "popup": {
+                    "cta": {}
+                  },
+                  "type": "DISTANCE_FEE_NON_FOOD_LM",
+                  "enrichedText": "<b>0.6 kms</b> | ₹29 Delivery fee will apply",
+                  "halfCardPopup": {
+                    "halfCardPopupHeader": {}
+                  }
+                }
+              ],
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "hasBestsellerItems": true,
+              "hasGuiltfreeItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "12.9338422,77.61976898"
+            },
+            "analytics": {}
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {},
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              },
+              "scrollBar": {}
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "20% OFF UPTO ₹50",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["17ffd97f-179a-4d39-bbb8-454a9a116312"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE TRYNEW",
+                      "description": "ABOVE ₹159",
+                      "offerType": "offers",
+                      "restId": "660675",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹75 OFF",
+                      "offerTag": "BREAKFAST",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["3b8c220c-5364-4fd7-a18f-d5a080021091"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE BFBINGE",
+                      "description": "ABOVE ₹299",
+                      "offerType": "offers",
+                      "restId": "660675",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT 10% OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["b2721629-e32e-48a3-974a-823bbec488dc"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE PARTY",
+                      "description": "ABOVE ₹600",
+                      "offerType": "offers",
+                      "restId": "660675",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹120 OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "rng/md/ads/production/32b9f8a87957f8c1ca369622f6a1ca77",
+                      "offerIds": ["ca7907e2-fe15-419d-a22e-b1f4c271b398"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE AXIS120",
+                      "description": "ABOVE ₹500",
+                      "offerType": "offers",
+                      "restId": "660675",
+                      "offerLogo": "rng/md/ads/production/32b9f8a87957f8c1ca369622f6a1ca77",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹200 OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "rng/md/ads/production/32b9f8a87957f8c1ca369622f6a1ca77",
+                      "offerIds": ["e90c019b-0504-4795-a600-4b3d1ef74370"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE AXIS200",
+                      "description": "ABOVE ₹500",
+                      "offerType": "offers",
+                      "restId": "660675",
+                      "offerLogo": "rng/md/ads/production/32b9f8a87957f8c1ca369622f6a1ca77",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {}
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878118",
+                              "name": "Ghee Plain Dosa ",
+                              "category": "Amudham Dosa",
+                              "description": "Crispy dosa made in pure nandini ghee served with 2 types of chutney and our signature drumstick sambar",
+                              "imageId": "37b86888e4db77143757a85e13a31147",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501432",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251266",
+                                      "name": "Sambar",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "290 ratings",
+                                  "ratingCountV2": "290"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878119",
+                              "name": "Ghee Masala Dosa ",
+                              "category": "Amudham Dosa",
+                              "description": "Crispy masala dosa made in pure nandini ghee and served with aloo palya, 2 types of chutney and our signature drumstick sambar",
+                              "imageId": "37b86888e4db77143757a85e13a31147",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501433",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251266",
+                                      "name": "Sambar",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "618 ratings",
+                                  "ratingCountV2": "618"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878120",
+                              "name": "Ghee Saagu Dosa ",
+                              "category": "Amudham Dosa",
+                              "description": "Crispy dosa with vegetable saagu on the inside made in pure nandini ghee served with 2 types of chutney and our signature drumstick sambar",
+                              "imageId": "37b86888e4db77143757a85e13a31147",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501411",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "47 ratings",
+                                  "ratingCountV2": "47"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878122",
+                              "name": "Ghee Set Dosa (3 Pcs) ",
+                              "category": "Amudham Dosa",
+                              "description": "Fluffy set dosas served with 2 types of chutney and saagu",
+                              "imageId": "3015578cad0f48dc70b67be39f510d0d",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501414",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251267",
+                                      "name": "Saagu",
+                                      "price": 4000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "250 ratings",
+                                  "ratingCountV2": "250"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878123",
+                              "name": "Ghee Tomato Uttapam (2 Pcs) ",
+                              "category": "Amudham Dosa",
+                              "description": "Tangy tomato uttapam served with 2 types of chutney & vegetable saagu",
+                              "imageId": "7837181be29035f9f468f5e06472c2e0",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501415",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251267",
+                                      "name": "Saagu",
+                                      "price": 4000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "87 ratings",
+                                  "ratingCountV2": "87"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878125",
+                              "name": "Ghee Ragi Dosa (2 Pcs) ",
+                              "category": "Amudham Dosa",
+                              "description": "Healthy option, ragi dosa is served with 2 types of chutney & our signature drumstick sambar",
+                              "imageId": "8659463507c042b2dd7c2a76920fb667",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501416",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251267",
+                                      "name": "Saagu",
+                                      "price": 4000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "131 ratings",
+                                  "ratingCountV2": "131"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878130",
+                              "name": "Ghee Pudi Thatte Idli (1)",
+                              "category": "Amudham Idli",
+                              "description": "Melt in the mouth idli topped with pudi and drenched in nandini ghee served with 2 chutneys & our signature drumstick sambar",
+                              "imageId": "aaaf267e273805115b4eb9e251349d77",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "700 ratings",
+                                  "ratingCountV2": "700"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878134",
+                              "name": "Thatte Idli(1)",
+                              "category": "Amudham Idli",
+                              "description": "Melt in the mouth rice idli, a classic dish without any garnishing served with 2 types of chutney and our signature drumstick sambar",
+                              "imageId": "e9337079359d4a5371010b0b4406b7bf",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 4900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "1103 ratings",
+                                  "ratingCountV2": "1103"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878140",
+                              "name": "Kesaribath ",
+                              "category": "Amudham Tiffin Specials",
+                              "description": "Server 1\na classic dish where kesari refers to the spice saffron which creates the dish's colour.",
+                              "imageId": "fcdbc4520da2b07640e2aa8e94384388",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "265 ratings",
+                                  "ratingCountV2": "265"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Amudham Dosa",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878115",
+                              "name": "Ghee Pudi Masala Dosa ",
+                              "category": "Amudham Dosa",
+                              "description": "Crispy on the outside and soft and fluffy on the inside, our ghee pudi masala dosas are roasted to perfection in pure nandini ghee. We serve this with a combination of chutney pudi and aloo palya on the inside and 2 types of chutneys and our signature drumstick sambar.\n\n",
+                              "imageId": "37b86888e4db77143757a85e13a31147",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501428",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251266",
+                                      "name": "Sambar",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "518 ratings",
+                                  "ratingCountV2": "518"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878116",
+                              "name": "Open Butter Masala Dosa ",
+                              "category": "Amudham Dosa",
+                              "description": "This fluffy ghee-roasted dosa is accompanied\nwith our melt-in-your-mouth aloo palya and a dollop of butter on top. Garnished\nwith fresh cilantro, coconut and carrots shavings, each bite delivers flavours that\nare guaranteed to satisfy your dosa cravings any time of the day or night.",
+                              "imageId": "f17463c501679d3192b2327b2c076e54",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 15900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501430",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251266",
+                                      "name": "Sambar",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "89 ratings",
+                                  "ratingCountV2": "89"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878117",
+                              "name": "Ghee Onion Dosa( 2 Pcs) ",
+                              "category": "Amudham Dosa",
+                              "description": "Ghee onion dosa, this fluffy dosa is topped with caramelized chopped onions that provide a satisfying crunch with every bite. This dosa is served with coconut & tomato chutney along with our signature drumstick sambar.",
+                              "imageId": "500ce3cb3b179d2dbff6f7426d5728cc",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501412",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251267",
+                                      "name": "Saagu",
+                                      "price": 4000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "180 ratings",
+                                  "ratingCountV2": "180"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878118",
+                              "name": "Ghee Plain Dosa ",
+                              "category": "Amudham Dosa",
+                              "description": "Crispy dosa made in pure nandini ghee served with 2 types of chutney and our signature drumstick sambar",
+                              "imageId": "37b86888e4db77143757a85e13a31147",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501432",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251266",
+                                      "name": "Sambar",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "290 ratings",
+                                  "ratingCountV2": "290"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878119",
+                              "name": "Ghee Masala Dosa ",
+                              "category": "Amudham Dosa",
+                              "description": "Crispy masala dosa made in pure nandini ghee and served with aloo palya, 2 types of chutney and our signature drumstick sambar",
+                              "imageId": "37b86888e4db77143757a85e13a31147",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501433",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251266",
+                                      "name": "Sambar",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "618 ratings",
+                                  "ratingCountV2": "618"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878120",
+                              "name": "Ghee Saagu Dosa ",
+                              "category": "Amudham Dosa",
+                              "description": "Crispy dosa with vegetable saagu on the inside made in pure nandini ghee served with 2 types of chutney and our signature drumstick sambar",
+                              "imageId": "37b86888e4db77143757a85e13a31147",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501411",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "47 ratings",
+                                  "ratingCountV2": "47"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878121",
+                              "name": "Ghee Khali Dosa (2 Pcs) ",
+                              "category": "Amudham Dosa",
+                              "description": "Serves 1\nkhali dosa comes with 2 types of chutney and saagu",
+                              "imageId": "26b0413996e5b7b66818645b8281d274",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501413",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251267",
+                                      "name": "Saagu",
+                                      "price": 4000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "82 ratings",
+                                  "ratingCountV2": "82"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878122",
+                              "name": "Ghee Set Dosa (3 Pcs) ",
+                              "category": "Amudham Dosa",
+                              "description": "Fluffy set dosas served with 2 types of chutney and saagu",
+                              "imageId": "3015578cad0f48dc70b67be39f510d0d",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501414",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251267",
+                                      "name": "Saagu",
+                                      "price": 4000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "250 ratings",
+                                  "ratingCountV2": "250"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878123",
+                              "name": "Ghee Tomato Uttapam (2 Pcs) ",
+                              "category": "Amudham Dosa",
+                              "description": "Tangy tomato uttapam served with 2 types of chutney & vegetable saagu",
+                              "imageId": "7837181be29035f9f468f5e06472c2e0",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501415",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251267",
+                                      "name": "Saagu",
+                                      "price": 4000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "87 ratings",
+                                  "ratingCountV2": "87"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878124",
+                              "name": "Ghee Garlic Roast Dosa ",
+                              "category": "Amudham Dosa",
+                              "description": "Crispy garlic roast made in pure nandini ghee and served with 2 types of chutney & our signature drumstick sambar",
+                              "imageId": "1ed71fa0e75f8adc57c0c9f03f3d66e4",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501434",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251266",
+                                      "name": "Sambar",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "104 ratings",
+                                  "ratingCountV2": "104"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878125",
+                              "name": "Ghee Ragi Dosa (2 Pcs) ",
+                              "category": "Amudham Dosa",
+                              "description": "Healthy option, ragi dosa is served with 2 types of chutney & our signature drumstick sambar",
+                              "imageId": "8659463507c042b2dd7c2a76920fb667",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501416",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251267",
+                                      "name": "Saagu",
+                                      "price": 4000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "131 ratings",
+                                  "ratingCountV2": "131"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878126",
+                              "name": "Ghee Multi Grain Dosa (2 Pcs) ",
+                              "category": "Amudham Dosa",
+                              "description": "A healthy twist on the normal dosas, served with 2 types of chutney & our signature drumstick sambar",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501417",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251267",
+                                      "name": "Saagu",
+                                      "price": 4000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "18 ratings",
+                                  "ratingCountV2": "18"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878129",
+                              "name": "Ghee Garlic Masala Dosa ",
+                              "category": "Amudham Dosa",
+                              "description": "Appetizing dosa made in nandini ghee anda generous portion of garic masala is served with 2 types of chutney & our signature drumstick sambar",
+                              "imageId": "1ed71fa0e75f8adc57c0c9f03f3d66e4",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501420",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251266",
+                                      "name": "Sambar",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "145 ratings",
+                                  "ratingCountV2": "145"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Amudham Idli",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878130",
+                              "name": "Ghee Pudi Thatte Idli (1)",
+                              "category": "Amudham Idli",
+                              "description": "Melt in the mouth idli topped with pudi and drenched in nandini ghee served with 2 chutneys & our signature drumstick sambar",
+                              "imageId": "aaaf267e273805115b4eb9e251349d77",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "700 ratings",
+                                  "ratingCountV2": "700"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878131",
+                              "name": "Mini Vada (2 Pcs) ",
+                              "category": "Amudham Idli",
+                              "description": "Deep fired golden brown crispy dish. Can be savored on its own or as an accompaniment served with 2 types of chutneys & our signature drumstick sambar",
+                              "imageId": "8dc3eb6204e84a640ed20986d702562f",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501422",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251266",
+                                      "name": "Sambar",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "1294 ratings",
+                                  "ratingCountV2": "1294"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878132",
+                              "name": "Ghee / Butter Thatte Idli  ",
+                              "category": "Amudham Idli",
+                              "description": "Melt in the mouth rice idli drenched in nandini ghee / butter served with 2 types of chutney & our signature drumstick sambar\n",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "41 ratings",
+                                  "ratingCountV2": "41"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878133",
+                              "name": "Ghee / Butter Ragi Thatte Idli  ",
+                              "category": "Amudham Idli",
+                              "description": "Melt in the mouth finger millet idli drenched in nandini ghee / butter served with 2 types of chutney & our signature drumstick sambar",
+                              "imageId": "ee230fb9c8828afc6bdc6604e5eeed8e",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "145 ratings",
+                                  "ratingCountV2": "145"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878134",
+                              "name": "Thatte Idli(1)",
+                              "category": "Amudham Idli",
+                              "description": "Melt in the mouth rice idli, a classic dish without any garnishing served with 2 types of chutney and our signature drumstick sambar",
+                              "imageId": "e9337079359d4a5371010b0b4406b7bf",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 4900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "1103 ratings",
+                                  "ratingCountV2": "1103"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878135",
+                              "name": "Ghee Button Idli Sambar ",
+                              "category": "Amudham Idli",
+                              "description": "Button idlis, the best on the go breakfast. Soft button idlis soaked in our signature drumstick sambar and topped with nandini ghee.",
+                              "imageId": "331201616ad4135526e906d95b4c8dee",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501423",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251266",
+                                      "name": "Sambar",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "529 ratings",
+                                  "ratingCountV2": "529"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878136",
+                              "name": "Ghee Rava Idli ",
+                              "category": "Amudham Idli",
+                              "description": "A healthy breakfast, steamed idli made of rava, veggies, yogurt & spices topped with nandini ghee served with 2 types of chutney with saagu",
+                              "imageId": "2d00c288be8eca7659cdd06adf555479",
+                              "isVeg": 1,
+                              "price": 8400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501424",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251267",
+                                      "name": "Saagu",
+                                      "price": 4000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "nextAvailableAtMessage": "Next available at 11:30 am, today",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "105 ratings",
+                                  "ratingCountV2": "105"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Amudham Tiffin Specials",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878137",
+                              "name": "Sweet Pongal ",
+                              "category": "Amudham Tiffin Specials",
+                              "description": "Serves 1\na delicious south indian dish made with rice, moong lentils, ghee, jaggery, cardamoms and nuts.",
+                              "imageId": "e392526b28da2fd7a5d1f542dfb0881a",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "108 ratings",
+                                  "ratingCountV2": "108"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878138",
+                              "name": "Ghee Ven Pongal ",
+                              "category": "Amudham Tiffin Specials",
+                              "description": "Light and comforting meal made of rice, yellow moong dal & ghee. Served with 2 types of chutney & our signature drumstick sambar",
+                              "imageId": "ff4069f1b44bd6363d2b9c5a320aa057",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "444 ratings",
+                                  "ratingCountV2": "444"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878139",
+                              "name": "Poori Saagu (3 Pcs) ",
+                              "category": "Amudham Tiffin Specials",
+                              "description": "Deep fried puffy pooris and saagu made of vegetable, spices & cashew served with 2 types of chutney & our signature drumstick sambar",
+                              "imageId": "a80581cced877bebbc88186f39a3085e",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "79501426",
+                                  "groupName": "Extra",
+                                  "choices": [
+                                    {
+                                      "id": "64251265",
+                                      "name": "Chutney",
+                                      "price": 2000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "64251267",
+                                      "name": "Saagu",
+                                      "price": 4000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "255 ratings",
+                                  "ratingCountV2": "255"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878140",
+                              "name": "Kesaribath ",
+                              "category": "Amudham Tiffin Specials",
+                              "description": "Server 1\na classic dish where kesari refers to the spice saffron which creates the dish's colour.",
+                              "imageId": "fcdbc4520da2b07640e2aa8e94384388",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "265 ratings",
+                                  "ratingCountV2": "265"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878142",
+                              "name": "Kharabath ",
+                              "category": "Amudham Tiffin Specials",
+                              "description": "Serves 1\na mildly spiced rava upma a very popular dish served with coconut chutney",
+                              "imageId": "5c570d59eed1858683b86d33d2eb5983",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "275 ratings",
+                                  "ratingCountV2": "275"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878143",
+                              "name": "Gulab Jamoon (1)",
+                              "category": "Amudham Tiffin Specials",
+                              "description": "Serves 1\nall time favorite Indian dessert",
+                              "imageId": "fdea58d3490bfb027fa276412030df83",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 4900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "68 ratings",
+                                  "ratingCountV2": "68"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878164",
+                              "name": "Ghee Pudi Kharabath ",
+                              "category": "Amudham Tiffin Specials",
+                              "description": "A mildly spiced rava upma a very popular dish topped with pudi and  nandini ghee served with coconut chutney",
+                              "imageId": "5483688c4fe8aafc3744f987f320e76e",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "47 ratings",
+                                  "ratingCountV2": "47"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "South Indian",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "115525659",
+                              "name": "Ghee Thatte Idli (1)",
+                              "category": "South Indian",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "16 ratings",
+                                  "ratingCountV2": "16"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "115525660",
+                              "name": "Butter Thatte Idli (1)",
+                              "category": "South Indian",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Bread",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "112872149",
+                              "name": "Wheat Paratha (1)",
+                              "category": "Bread",
+                              "isVeg": 1,
+                              "price": 5500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "112872150",
+                              "name": "Kerala Paratha (1)",
+                              "category": "Bread",
+                              "isVeg": 1,
+                              "price": 5500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "113442462",
+                              "name": "Wheat Paratha (2)",
+                              "category": "Bread",
+                              "isVeg": 1,
+                              "price": 9500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "113496264",
+                              "name": "Kerala Paratha (2)",
+                              "category": "Bread",
+                              "isVeg": 1,
+                              "price": 9500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Amudham Tossed Specials",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122700373",
+                              "name": "Tossed Ghee Garlic Masala Rice",
+                              "category": "Amudham Tossed Specials",
+                              "imageId": "7bb209f5f2cbef868f45e31e1a40f734",
+                              "isVeg": 1,
+                              "price": 12400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122700374",
+                              "name": "Tossed Ghee Garlic Pepper Capsicum Rice",
+                              "category": "Amudham Tossed Specials",
+                              "isVeg": 1,
+                              "price": 12400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122700375",
+                              "name": "Tossed Ghee Pudi Rice",
+                              "category": "Amudham Tossed Specials",
+                              "isVeg": 1,
+                              "price": 12400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122700376",
+                              "name": "Tossed Ghee Mango Ginger Rice (seasonal)",
+                              "category": "Amudham Tossed Specials",
+                              "isVeg": 1,
+                              "price": 12400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122700377",
+                              "name": "Tossed Ghee Pudina Shavige",
+                              "category": "Amudham Tossed Specials",
+                              "isVeg": 1,
+                              "price": 10900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122700378",
+                              "name": "Tossed Ghee Garlic Masala Shavige",
+                              "category": "Amudham Tossed Specials",
+                              "isVeg": 1,
+                              "price": 10900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122700379",
+                              "name": "Tossed Ghee Garlic Pepper Capsicum Shavige",
+                              "category": "Amudham Tossed Specials",
+                              "isVeg": 1,
+                              "price": 10900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122700380",
+                              "name": "Tossed Ghee Mango Ginger Shavige (seasonal)",
+                              "category": "Amudham Tossed Specials",
+                              "isVeg": 1,
+                              "price": 10900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122700381",
+                              "name": "Tossed Ghee Pudina Button Idli",
+                              "category": "Amudham Tossed Specials",
+                              "isVeg": 1,
+                              "price": 10400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122700382",
+                              "name": "Tossed Ghee Garlic Masala Button Idli",
+                              "category": "Amudham Tossed Specials",
+                              "isVeg": 1,
+                              "price": 10400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122700383",
+                              "name": "Tossed Ghee Garlic Pepper Capsicum Button Idli",
+                              "category": "Amudham Tossed Specials",
+                              "isVeg": 1,
+                              "price": 10400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122700384",
+                              "name": "Tossed Ghee Mango Ginger Button Idli (seasonal)",
+                              "category": "Amudham Tossed Specials",
+                              "isVeg": 1,
+                              "price": 10400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Amudham Hidden Gems",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "107878154",
+                              "name": "Vegetable Shavige Bath ",
+                              "category": "Amudham Hidden Gems",
+                              "description": "It is a common breakfast recipe made across south indian states. Typically served without any accompaniment but tastes great when served with chutneys.",
+                              "imageId": "b634f9237a71abe8e2d276c770171ac3",
+                              "isVeg": 1,
+                              "price": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7:30 am, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "99 ratings",
+                                  "ratingCountV2": "99"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": ["License No. 11222334002157"]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Cafe Amudham",
+                      "area": "Koramangala",
+                      "completeAddress": "No. 146, 5th Block, Koramangala, Bangalore, BTM Layout , B.B.M.P South, Karnataka-560095"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "0c61c27f-2903-4621-b0c4-602620b03239",
+  "sid": "9ey2eb76-2961-4783-9b15-476539d41081",
+  "deviceId": "f7e958d1-fee9-59c2-8d52-1b618f8a867e",
+  "csrfToken": "O8YuFsAKOJ8J-JEoQLV06TsowCtgh5Ef4LkdcPI4"
+}
