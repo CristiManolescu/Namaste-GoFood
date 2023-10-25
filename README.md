@@ -8,8 +8,8 @@ It's a simple app where you can see serval restaurants and their menu, you can a
 If you want to setup this repository locally follow the next commands:
 
 ```
-gh repo clone CristiManolescu/namaste-react
-cd namaste-react
+gh repo clone CristiManolescu/Namaste-GoFood
+cd Namaste-GoFood
 npm
 npm start
 ```
